@@ -168,7 +168,7 @@ int main()
 	}
 
 	compval = 0;
-
+//parallelization of for loop to minimizethe time if done serially 
 	#pragma omp parallel for 
 	for(i = 1; i <= lenA; ++i)
 	{	
